@@ -1,8 +1,8 @@
 /*
 Color Palette
-background color: #200439
+background color: #285430
 primary: #512C73
-secondary: #361356
+secondary: #5F8D4E
 tertiary: #6F4D8F
 accent: #9277AC
 vegasGold: #c5b358
@@ -11,10 +11,9 @@ black: #000
 
 NEW COLORS
 
-#FFF8EA
-#9E7676
-#815B5B
-#594545
+#E5D9B6
+#A4BE7B
+
 */
 
 html{
@@ -27,7 +26,7 @@ body {
     padding: 0;
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #200439;
+    background-color: #285430;
     color: #fff;
 }
 
@@ -44,8 +43,8 @@ body {
 
 .heroImage img {
     border-radius: 6rem;
-    box-shadow: 10px 10px #000;
-    width: 100%;
+    box-shadow: 8px 8px 4px #000;
+    width: 70%;
     height: auto;
 }
 
@@ -77,17 +76,16 @@ body {
 .button {
     background-color: #fff;
     padding: 1rem;
-    border: 1px solid #9277AC;
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #200439;
+    color: #285430;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
 
 .button:hover {
-    background-color: #361356;
+    background-color: #5F8D4E;
     color: #c5b358;
     transform: scale(1.5);
     /* Don't put zoom past 150% */
@@ -102,7 +100,7 @@ body {
 
 .projectCard {
     background-color: #fff;
-    color: #200439;
+    color: #285430;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
