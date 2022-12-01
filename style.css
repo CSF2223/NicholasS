@@ -1,19 +1,12 @@
 /*
 Color Palette
 background color: #285430
-primary: #512C73
 secondary: #5F8D4E
-tertiary: #6F4D8F
-accent: #9277AC
+tertiary: #4d8f4e
+accent: #A4BE7B
 vegasGold: #c5b358
-white: #fff
+white: #e6d5a5
 black: #000  
-
-NEW COLORS
-
-#E5D9B6
-#A4BE7B
-
 */
 
 html{
@@ -27,7 +20,11 @@ body {
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
     background-color: #285430;
-    color: #fff;
+    color: #e6d5a5;
+}
+
+.among {
+    font-family: 'Merriweather', serif;
 }
 
 .hero {
@@ -63,6 +60,7 @@ body {
 
 .heroTextTop {
     padding: 1rem;
+    color: #e6d5a5;
 }
 
 .heroTextBottom {
@@ -74,7 +72,7 @@ body {
 }
 
 .button {
-    background-color: #fff;
+    background-color: #e6d5a5;
     padding: 1rem;
     border-radius: 25px;
     font-size: 0.9rem;
@@ -99,13 +97,11 @@ body {
 }
 
 .projectCard {
-    background-color: #fff;
+    background-color: #e6d5a5;
     color: #285430;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
-    border: 1px solid #9277AC;
-    border-radius: 1rem;
     box-shadow: 10px 10px 5px #000
 }
 
@@ -152,26 +148,20 @@ footer {
     text-align: center;
     color: #c5b358;
     margin: 10rem 0;
-    border-top: 1px solid #9277AC;
+    border-top: 1px solid #A4BE7B;
 }
 
 .copyright {
     margin: 1rem;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #c5b358;
     display: block;
 }
-
-.filler {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 80vh;
+    
+.bottomNav {
+    font-size: 1rem;
 }
-
 
 @media (min-width: 800px) {
     .hero{

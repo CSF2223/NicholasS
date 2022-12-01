@@ -1,18 +1,16 @@
 /*
 Color Palette
-background color: #200439
-primary: #512C73
+background color: #285430
 secondary: #5F8D4E
-tertiary: #6F4D8F
-accent: #9277AC
+tertiary: #4d8f4e
+accent: #A4BE7B
 vegasGold: #c5b358
-white: #fff
+white: #e6d5a5
 black: #000  
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,7 +22,7 @@ black: #000
     font-size: 2.2rem;
     margin: 0.75rem 2.5rem;
     color: #c5b358;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Distressed', cursive;
 }
 
 .navbar-links ul {
@@ -41,7 +39,7 @@ black: #000
 
 .navbar-links li a {
     text-decoration: none;
-    color: #fff;
+    color: #e6d5a5;
     padding: 0.5rem 2rem;
     display: block;
 }
@@ -64,7 +62,7 @@ black: #000
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: #e6d5a5;
     border-radius: 10px;
 }
 
@@ -87,8 +85,13 @@ black: #000
     display: block;
 }
 
+.fa-file {
+    color: #4d8f4e;
+}
 
-
+.fa-brands {
+    color: #4d8f4e;
+}
 
 @media (max-width: 800px) {
     .toggle-button {
