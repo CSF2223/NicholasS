@@ -41,8 +41,12 @@ body {
 .heroImage img {
     border-radius: 6rem;
     box-shadow: 8px 8px 4px #000;
-    width: 70%;
+    width: auto;
     height: auto;
+}
+
+.heroImage img:hover {
+
 }
 
 .heroText {
@@ -102,7 +106,8 @@ body {
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
-    box-shadow: 10px 10px 5px #000
+    box-shadow: 10px 10px 5px #000;
+    transition: .3s ease-in-out
 }
 
 .projectCard img {
@@ -142,6 +147,10 @@ body {
 .fa-file {
     font-size: 2.2rem;
     padding: 1.5rem;
+}
+
+.projectCard:hover {
+    transform: scale(1.1);
 }
 
 footer {
@@ -193,4 +202,49 @@ footer {
     .projectCard {
         max-width: 20%;
     }
+}
+.AboutCard {
+    background-color: #e6d5a5;
+    color: #285430;
+    margin: 4rem 3rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px #000;
+    transition: .3s ease-in-out
+}
+
+.AboutCard img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    margin: 1rem 0;
+}
+
+.AboutCard h2 {
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    font-weight: 600;
+}
+
+.AboutCard p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.AboutCard:hover {
+    transform: scale(1.1);
+
+}
+
+.Xiao {
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #e6d5a5;
+    color: #e6d5a5;
+    margin: -0.25rem;
+    padding: 0.25rem;
+    transition: color.3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.Xiao:hover {
+    color:#285430;
+    box-shadow: inset 2000px 0 0 0 #e6d5a5;
 }
