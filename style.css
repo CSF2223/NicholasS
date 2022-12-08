@@ -43,9 +43,11 @@ body {
     box-shadow: 8px 8px 4px #000;
     width: auto;
     height: auto;
+    transition: .3s ease-in-out
 }
 
 .heroImage img:hover {
+    transform: scale(1.03);
 
 }
 
@@ -150,7 +152,7 @@ body {
 }
 
 .projectCard:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 footer {
@@ -170,6 +172,13 @@ footer {
     
 .bottomNav {
     font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+    .AboutCard1 img {
+       max-height: 80%; 
+       max-width: 80%;
+    }
 }
 
 @media (min-width: 800px) {
@@ -202,7 +211,9 @@ footer {
     .projectCard {
         max-width: 20%;
     }
+    
 }
+
 .AboutCard {
     background-color: #e6d5a5;
     color: #285430;
@@ -213,11 +224,13 @@ footer {
     transition: .3s ease-in-out
 }
 
-.AboutCard img {
-    width: 100%;
-    height: 100%;
-    border-radius: 3rem;
+.AboutCard1 img {
+    width: 80%;
+    height: 80%;
+    border-radius: 1rem;
+    background-color: #fff;
     margin: 1rem 0;
+    transition: .5s ease-in-out
 }
 
 .AboutCard h2 {
@@ -231,20 +244,38 @@ footer {
 }
 
 .AboutCard:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 
+}
+
+.AboutCard1 img:hover {
+    transform: scale(1.03);
+}
+
+.AboutCard1 {
+    background-color: #285430;
+    color: #285430;
+    margin: 4rem 3rem;
+    text-align: center;
 }
 
 .Xiao {
     text-align: center;
     box-shadow: inset 0 0 0 0 #e6d5a5;
     color: #e6d5a5;
-    margin: -0.25rem;
-    padding: 0.25rem;
     transition: color.3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .Xiao:hover {
     color:#285430;
     box-shadow: inset 2000px 0 0 0 #e6d5a5;
+}
+
+.filler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 80vh;
 }
